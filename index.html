@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Description of our site -->
+    <meta
+      name="description"
+      content="This is an Ecommerce site build at localhost evening session"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title of our site -->
+    <meta name="title" content="Furniture - Get quality furniture from us" />
+    <title>Furntures - Get the best furnitures from us</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 
+  - preload images
+-->
+    <link rel="preload" as="image" href="./assets/images/hero-product-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-product-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-product-3.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-product-4.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-product-5.jpg" />
+  </head>
+  <body id="top">
+    <!-- Header -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <div class="input-wrapper">
+          <input
+            type="search"
+            name="search"
+            class="input-field"
+            placeholder="Search Items..."
+          />
+
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <a href="#" class="logo">Furniture</a>
+        <div class="header-action">
+          <button class="header-action-button" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-button" aria-label="favorite list">
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <button class="header-action-button" aria-label="cart">
+            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </div>
+      </div>
+    </header>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
